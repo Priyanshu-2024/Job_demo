@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Button from "react-bootstrap/Button";
 import education from "../images/education.jpeg";
 import finance from "../images/finance.jpeg";
@@ -8,12 +8,10 @@ import health from "../images/helth.jpeg";
 import software from "../images/software.jpeg";
 import bg from "../images/bg.jpg";
 
-
-
 function Home() {
   return (
     <>
-      <div className="container-main" style={{backgroundImage: `url(${bg})`}}>
+      <div className="container-main" style={{ backgroundImage: `url(${bg})` }}>
         <div className="body container">
           <h1>
             Your job search ends here
@@ -130,4 +128,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;

@@ -13,7 +13,7 @@ function Jobcard({data , onCardClick}) {
   return (
     <div className="list mb-4" onClick={handleCardClick}>
      
-          <Card style={{ width: "40rem" }}>
+          <Card style={{ width: "40rem", cursor:"pointer" }}>
             <Card.Body className="card">
               <Card.Title>{data.job_designation}</Card.Title>
               <Card.Text>{data.company_info.name}</Card.Text>

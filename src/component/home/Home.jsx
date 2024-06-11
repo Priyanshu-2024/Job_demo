@@ -7,6 +7,8 @@ import engneering from "../images/engeering.jpeg";
 import health from "../images/helth.jpeg";
 import software from "../images/software.jpeg";
 import bg from "../images/bg.jpg";
+import {Link} from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -17,9 +19,11 @@ function Home() {
             Your job search ends here
             <h4>Discover 50 lakh+ career opportunities</h4>
           </h1>
+          <Link to="/search">
           <Button className="w-25 explore" variant="success">
             Explore Jobs
           </Button>{" "}
+          </Link>
         </div>
       </div>
       <div className="service-category">

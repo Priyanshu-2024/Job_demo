@@ -24,8 +24,8 @@ function Details() {
 
   return (
    <>
-   <div className="container mt-5" style={{cursor:"pointer" }}>
-        <Card style={{ width: "50rem", cursor:"pointer" }}>
+   <div className="container mt-5">
+        <Card style={{ width: "50rem" }}>
           <Card.Body className="card">
             <Card.Title>{data?.job_designation}</Card.Title>
             <Card.Text>{data?.company_info?.name}</Card.Text>
